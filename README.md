@@ -15,9 +15,13 @@ Functions in Excel are numerous. On Excel workbook, Formula bar shows the functi
   - Text Functions
   - This is where we worked on Text extraction and Text Cleaning.
 ![Screenshot (28)](https://github.com/user-attachments/assets/ae30c8bc-978d-4477-b211-49f3a3116bcf)
+
 ![Screenshot (24)](https://github.com/user-attachments/assets/4824a3b6-657d-4dd4-8efe-784c3cef57bc)
+
 ![Screenshot (25)](https://github.com/user-attachments/assets/3d9a458b-0da3-479c-8120-302ca18c1be5)
+
 ![Screenshot (26)](https://github.com/user-attachments/assets/d2b10fcd-8a19-4fd0-a213-03dbeebd32de)
+
 ![Screenshot (27)](https://github.com/user-attachments/assets/5a023ec6-f684-46bd-84bc-6ae1349cbbce)
 
 - Vlookup
@@ -29,6 +33,7 @@ Functions in Excel are numerous. On Excel workbook, Formula bar shows the functi
 - Using Salary table
 
 ![Screenshot (29)](https://github.com/user-attachments/assets/b3a69794-a83d-461f-b38a-3681850c1743)
+
 ![Screenshot (30)](https://github.com/user-attachments/assets/9af5d16e-2f0d-42fa-b993-afc139530c33)
 
 
