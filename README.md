@@ -2,7 +2,7 @@
 
 ## PROJECT REPORT
 
-### INTRODUCTION TO EXCEL FUNCTION
+### INTRODUCTION TO EXCEL FUNCTIONS
 Functions in Excel are numerous. On Excel workbook, Formula bar shows the functions in excel where we have Financial function, condition function, text function, data type, vlookup, statistical, engineering, cube function, information function, compability, web functions etc. It is important to know that every functions must start with Equality sign (=). Numbers in between bracket () is called Argument or parameters which can be either mandatory (must be supplied else it will return Null value) or Optional (can be ignored).
 - FINANCIAL FUNCTIONS
 - This is where we worked out the Grand total (SUM), Average total (AVERAGE), Highest Salary(MAX), Lowest Salary (MIN) and Total Number of staff (COUNT or COUNTA).
