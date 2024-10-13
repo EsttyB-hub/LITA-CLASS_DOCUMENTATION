@@ -9,8 +9,16 @@ Functions in Excel are numerous. On Excel workbook, Formula bar shows the functi
   ![Screenshot (22)](https://github.com/user-attachments/assets/c37e127b-91b1-4414-a631-a012979dbe59)
   
 - Conditional Functions
-- This is where we make use of *IF* function where we calculated based on certain criteria.
-  ![Screenshot (23)](https://github.com/user-attachments/assets/98c99ac5-340b-4d23-86d1-a56dc5da94ae)
+- This is where we make use of *IF* function where we calculated based on certain criteria. IF function is used to check condition and return on different Values. Also, it is used to perform logical comparison. Conditional functions include IF, IFS, SWITCH, AND, OR, XOR.
+  
+- It has 3 arguments:
+  1. Logical test
+  2. Value if true
+  3. Value if false
+     
+![Screenshot (23)](https://github.com/user-attachments/assets/98c99ac5-340b-4d23-86d1-a56dc5da94ae)
+
+![Screenshot (31)](https://github.com/user-attachments/assets/350ac804-08d4-4446-b9ef-361baf2abce3)
 
   - Text Functions
   - This is where we worked on Text extraction and Text Cleaning.
@@ -32,8 +40,10 @@ Functions in Excel are numerous. On Excel workbook, Formula bar shows the functi
   4. Range-Look up (An exact match or an approximate match).
 - Using Salary table
 
-![Screenshot (29)](https://github.com/user-attachments/assets/b3a69794-a83d-461f-b38a-3681850c1743)
+![Screenshot (29)](https://github.com/user-attachments/assets/f4957755-18e7-4f91-a9e7-5e299055b5fe)
 
-![Screenshot (30)](https://github.com/user-attachments/assets/9af5d16e-2f0d-42fa-b993-afc139530c33)
+![Screenshot (30)](https://github.com/user-attachments/assets/30f1940e-fd6c-4c2f-847b-ca5cf7c9ba16)
 
+### PIVOT TABLE
+- It is a data summarized table.
 
