@@ -1,4 +1,4 @@
-# LITA-CLASS_DOCUMENTATION
+# LITA_CLASS_DOCUMENTATION
 
 ## PROJECT REPORT
 
@@ -27,14 +27,17 @@ Functions in Excel are numerous. On Excel workbook, Formula bar shows the functi
     
 ![Screenshot (28)](https://github.com/user-attachments/assets/bbdf4866-a0fa-459b-b5fe-3bcc7e7f53a7)
 
+- This is where we joined first name with email.
 ![Screenshot (24)](https://github.com/user-attachments/assets/2c1df86f-aa9e-451b-be1e-0105906fe88c)
 
+- This is where we eliminated unnecessary space from names, change names to Upper case, change names to lower case, and names properly entered and trimmed.
 ![Screenshot (25)](https://github.com/user-attachments/assets/67a66df8-e51f-4dbb-852d-a5f71c6c565d)
 
+- This is where we joined first name with surname.
 ![Screenshot (26)](https://github.com/user-attachments/assets/aa951a0b-4745-4b73-96f1-7f451d780299)
 
+- This is where we separated first name and surname from the email address.
 ![Screenshot (27)](https://github.com/user-attachments/assets/b5d2d9cb-2135-466b-b56d-de7afcd3fc16)
-
 
 
 - Vlookup
@@ -51,4 +54,10 @@ Functions in Excel are numerous. On Excel workbook, Formula bar shows the functi
 
 ### PIVOT TABLE
 - It is a data summarized table. It is used to create report in excel.
+- It has four boxes, which are:
+  1. Filters
+  2. Column
+  3. Rows
+  4. Values (which can be sum up)
+  
 
