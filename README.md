@@ -1,4 +1,4 @@
-# LITA_CLASS_DOCUMENTATION
+# EXCEL, SQL & POWER BI DOCUMENTATION
 
 ## PROJECT REPORT
 
@@ -64,5 +64,70 @@ Functions in Excel are numerous. On Excel workbook, Formula bar shows the functi
   2. Column
   3. Rows
   4. Values (which can be sum up)
+ 
+
+
+
   
+## INTRODUCTION TO SQL
+It is called Structured Query Language. 
+It is used for storing, retrieving and managing data in relational database management system (RDBMS). It enables a user to relate databases and tables. It is a standard language for RDBMS. All the RDBMS like MySQL, PostgreSQL, Oracle, MS Access and SQL Server use SQL as their satndard database languuage.
+
+- SQL follows the following rules: 
+➢ Structure query language is not case sensitive. Generally, keywords of SQL are written in uppercase. 
+➢ Statements of SQL are dependent on text lines. We can use a single SQL statement on one or multiple text line. 
+➢ Using the SQL statements, you can perform most of the actions in a database. 
+➢ SQL depends on tuple relational calculus and relational algebra.
+
+SQL Commands
+ - SQL commands are instructions. It is used to communicate with the database.
+ - It is also used to perform specific tasks, functions, and queries of data.
+ - SQL can perform various tasks like create a table, add data to tables, drop the table, modify the table, set permission 
+for users.
+ 
+ Types of SQL Commands 
+There are five types of SQL commands: 
+- DDL: Data Definition Language
+-  DML: Data Manipulation Language
+-  DCL: Data Control Language
+- TCL: Transaction Control Language
+- DQL: Data Query Language
+
+
+### Data Definition Language (DDL) 
+DDL changes the structure of the table like creating a table, deleting a table, altering a table, etc. All the command of DDL are auto-committed that means it permanently save all the changes in the database
+
+- Create: It is used to create a new table in the database.
+- Drop: It is used to delete both the structure and record stored in the table.
+- Alter: It is used to alter the structure of the database.
+- Truncate: It is used to delete all the rows from the table and free the space containing the table. 
+
+### Data Manipulation Language (DML)
+DML commands are used to modify the database. It is responsible for all form of CHANGES in the database. The command of DML is not auto-committed that means it can't permanently save all the changes in the database. They can be rollback.
+ Here are some commands that come under DML: 
+- Insert: The INSERT statement is a SQL query. It is used to insert data into the row of a table.
+-  Update: This command is used to update or modify the value of a column in the table.
+-  Delete: The delete statement is used to delete existing records in a table
+
+### Data Control Language (DCL)
+ DCL commands are used to GRANT and TAKE BACK authority from any database user.
+ Here are some commands that come under DCL: 
+ - Grant: It is used to give user access privileges to a database.
+ - Revoke: It is used to take back permissions from the user.
+   
+ ### Data Query Language (DQL)
+ DQL is used to fetch the data from the database. It uses only one command.
+ - Select: This is the same as the projection operation of relational algebra.
+ It is used to select the attribute based on the condition described by WHERE clause
+
+### Transaction Control Language (TCL)
+ TCL commands are used to manage transactions in the database. These are used to manage the changes made DML 
+Statement (INSERT, DELETE and UPDATE only). It also allows statements to be grouped into logical transactions
+ Here are some commands that come under TCL:
+- Commit command is used to permanently  save any transaction.
+- Rollback: This command restores the database to last committed state. Rollback command is used to undo transactions that have not already been saved to the database. 
+- Savepoint: It is used to roll the transaction back to a certain point without rolling back the entire transaction. Savepoint command is used to temporarily save a transaction so that you can rollback to that point whenever necessary.
+
+###  SQL Aggregate Functions
+ SQL aggregate functions are powerful tools used to perform calculations on a set of values, returning a single value that summarizes the data. They are commonly used in conjunction with the GROUP BY clause to group the data by one or more columns before applying the aggregate function.
 
