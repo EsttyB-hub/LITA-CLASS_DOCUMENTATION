@@ -1,4 +1,4 @@
-![incubator hub logo](https://github.com/user-attachments/assets/6cdb5f4b-310b-4c7c-9449-377a9ac560de) # EXCEL, SQL & POWER BI DOCUMENTATION
+# EXCEL, SQL & POWER BI DOCUMENTATION
 
 ## PROJECT REPORT
 
