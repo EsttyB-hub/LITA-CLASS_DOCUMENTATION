@@ -6,12 +6,12 @@
 Functions in Excel are numerous. On Excel workbook, Formula bar shows the functions in excel where we have Financial function, condition function, text function, data type, vlookup, statistical, engineering, cube function, information function, compability, web functions etc. It is important to know that every functions must start with Equality sign (=). Numbers in between bracket () is called Argument or parameters which can be either mandatory (must be supplied else it will return Null value) or Optional (can be ignored).
 
 - FINANCIAL FUNCTIONS
-- This is where we worked out the Grand total (SUM), Average total (AVERAGE), Highest Salary(MAX), Lowest Salary (MIN) and Total Number of staff (COUNT or COUNTA).
+This is where we worked out the Grand total (SUM), Average total (AVERAGE), Highest Salary(MAX), Lowest Salary (MIN) and Total Number of staff (COUNT or COUNTA).
  
   ![Screenshot (22)](https://github.com/user-attachments/assets/8f5cf76b-71aa-42e5-a633-45613d9ce1ff)
 
 - Conditional Functions
-- This is where we make use of *IF* function where we calculated based on certain criteria. IF function is used to check condition and return on different Values. Also, it is used to perform logical comparison. Conditional functions include IF, IFS, SWITCH, AND, OR, XOR.
+This is where we make use of *IF* function where we calculated based on certain criteria. IF function is used to check condition and return on different Values. Also, it is used to perform logical comparison. Conditional functions include IF, IFS, SWITCH, AND, OR, XOR.
   
 - It has 3 arguments:
   1. Logical test
@@ -28,25 +28,25 @@ Functions in Excel are numerous. On Excel workbook, Formula bar shows the functi
     
 ![Screenshot (28)](https://github.com/user-attachments/assets/bbdf4866-a0fa-459b-b5fe-3bcc7e7f53a7)
 
-- This is where we joined first name with email.
+This is where we joined first name with email.
   
 ![Screenshot (24)](https://github.com/user-attachments/assets/2c1df86f-aa9e-451b-be1e-0105906fe88c)
 
-- This is where we eliminated unnecessary space from names, change names to Upper case, change names to lower case, and names properly entered and trimmed.
+This is where we eliminated unnecessary space from names, change names to Upper case, change names to lower case, and names properly entered and trimmed.
   
 ![Screenshot (25)](https://github.com/user-attachments/assets/67a66df8-e51f-4dbb-852d-a5f71c6c565d)
 
-- This is where we joined first name with surname.
+This is where we joined first name with surname.
   
 ![Screenshot (26)](https://github.com/user-attachments/assets/aa951a0b-4745-4b73-96f1-7f451d780299)
 
-- This is where we separated first name and surname from the email address.
+This is where we separated first name and surname from the email address.
   
 ![Screenshot (27)](https://github.com/user-attachments/assets/b5d2d9cb-2135-466b-b56d-de7afcd3fc16)
 
 
 - Vlookup
-- It has 4 arguments
+It has 4 arguments
   1. Look Up Value (what is available in both tables you want to work on).
   2. Table Array ( the table that has what you are looking for).
   3. Column-Index-Number (the position of the column you want to return on the table array).
@@ -76,7 +76,7 @@ It is used for storing, retrieving and managing data in relational database mana
 ➢ Using the SQL statements, you can perform most of the actions in a database. 
 ➢ SQL depends on tuple relational calculus and relational algebra.
 
-SQL Commands
+### SQL Commands
  - SQL commands are instructions. It is used to communicate with the database.
  - It is also used to perform specific tasks, functions, and queries of data.
  - SQL can perform various tasks like create a table, add data to tables, drop the table, modify the table, set permission 
@@ -125,7 +125,7 @@ Statement (INSERT, DELETE and UPDATE only). It also allows statements to be grou
 - Rollback: This command restores the database to last committed state. Rollback command is used to undo transactions that have not already been saved to the database. 
 - Savepoint: It is used to roll the transaction back to a certain point without rolling back the entire transaction. Savepoint command is used to temporarily save a transaction so that you can rollback to that point whenever necessary.
 
-SQL Keys
+### SQL Keys
 
 Primary Key: A special type of key that uniquely identifies each record in a table. Each table can have only one primary key.
 
@@ -139,24 +139,24 @@ Candidate Key: Candidate key is a key of a table which can be selected as primar
 
 Alternate key: Alternate key is a candidate key, currently not selected as a primary key of the table.
 
-SQL Aggregate Functions
+### SQL Aggregate Functions
  SQL aggregate functions are powerful tools used to perform calculations on a set of values, returning a single value that summarizes the data. They are commonly used in conjunction with the GROUP BY clause to group the data by one or more columns before applying the aggregate function.
 They include, Count, Sum, Average, MIN, and MAX.
 
-SQL Joins
+### SQL Joins
 SQL JOIN means "to combine two or more tables". In SQL, JOIN clause is used to combine the records from two or more tables in a database.
 They include, Inner Join, Right Join, Left Join and Full Join.
 
-SQL Set Operations
+### SQL Set Operations
 SQL set operations allow you to combine the results of two or more SELECT queries. These operations treat the result sets of each query as mathematical sets, enabling you to perform set operations like union, intersection, and difference on them. SQL provides the following set operations which are Union, Union All and Intersect.
 
-SQL Views
+### SQL Views
  An SQL View is a virtual table that is created based on the result set of a SQL query. Unlike a regular table, a view does not store data itself; instead, it dynamically retrieves data from one or more underlying tables whenever the view is queried.
 
- SQL CASE WHEN Statements
+### SQL CASE WHEN Statements
  The CASE WHEN statement in SQL is a conditional expression that allows you to create different outputs based on certain conditions. It is similar to the IF-THEN-ELSE logic in programming languages. CASE can be used in SELECT, UPDATE, INSERT, and ORDER BY clauses, making it very versatile.
 
-Writing queries on SQL 
+### Writing queries on SQL 
 
 After a successful installation of the SQL App, Open the App, Click on New query and firstly create your database to warehouse all your queries. Also, Pay attention to masterdp because that is a default database, so always change it to the database created where your queries will be saved. It is also important to save the queries written before closing the App.
 
