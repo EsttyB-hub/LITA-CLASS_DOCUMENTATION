@@ -1,4 +1,4 @@
-# EXCEL, SQL & POWER BI DOCUMENTATION
+![Uploading incubator hub logo.jpg…]() # EXCEL, SQL & POWER BI DOCUMENTATION
 
 ## PROJECT REPORT
 
