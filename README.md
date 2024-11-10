@@ -2,7 +2,7 @@
 
 ## PROJECT REPORT
 
-### INTRODUCTION TO EXCEL FUNCTIONS
+## INTRODUCTION TO EXCEL FUNCTIONS
 Functions in Excel are numerous. On Excel workbook, Formula bar shows the functions in excel where we have Financial function, condition function, text function, data type, vlookup, statistical, engineering, cube function, information function, compability, web functions etc. It is important to know that every functions must start with Equality sign (=). Numbers in between bracket () is called Argument or parameters which can be either mandatory (must be supplied else it will return Null value) or Optional (can be ignored).
 
 - FINANCIAL FUNCTIONS
@@ -65,9 +65,6 @@ Functions in Excel are numerous. On Excel workbook, Formula bar shows the functi
   3. Rows
   4. Values (which can be sum up)
  
-
-
-
   
 ## INTRODUCTION TO SQL
 It is called Structured Query Language. 
@@ -128,6 +125,41 @@ Statement (INSERT, DELETE and UPDATE only). It also allows statements to be grou
 - Rollback: This command restores the database to last committed state. Rollback command is used to undo transactions that have not already been saved to the database. 
 - Savepoint: It is used to roll the transaction back to a certain point without rolling back the entire transaction. Savepoint command is used to temporarily save a transaction so that you can rollback to that point whenever necessary.
 
-###  SQL Aggregate Functions
+SQL Keys
+
+Primary Key: A special type of key that uniquely identifies each record in a table. Each table can have only one primary key.
+
+Foreign Key:A field in one table that uniquely identifies a row of another table, creating a relationship between the two tables.
+
+Surrogate Key: A surrogate key is a unique identifier for each record in a table, typically created by the database itself.
+
+Composite Key: Composite key (also known as compound key concatenated key) is a group of two or more columns that identifies each row of a table uniquely.
+
+Candidate Key: Candidate key is a key of a table which can be selected as primary key. A table can have multiple candidate keys, out of which one can be selected as a primary key. 
+
+Alternate key: Alternate key is a candidate key, currently not selected as a primary key of the table.
+
+SQL Aggregate Functions
  SQL aggregate functions are powerful tools used to perform calculations on a set of values, returning a single value that summarizes the data. They are commonly used in conjunction with the GROUP BY clause to group the data by one or more columns before applying the aggregate function.
+They include, Count, Sum, Average, MIN, and MAX.
+
+SQL Joins
+SQL JOIN means "to combine two or more tables". In SQL, JOIN clause is used to combine the records from two or more tables in a database.
+They include, Inner Join, Right Join, Left Join and Full Join.
+
+SQL Set Operations
+SQL set operations allow you to combine the results of two or more SELECT queries. These operations treat the result sets of each query as mathematical sets, enabling you to perform set operations like union, intersection, and difference on them. SQL provides the following set operations which are Union, Union All and Intersect.
+
+SQL Views
+ An SQL View is a virtual table that is created based on the result set of a SQL query. Unlike a regular table, a view does not store data itself; instead, it dynamically retrieves data from one or more underlying tables whenever the view is queried.
+
+ SQL CASE WHEN Statements
+ The CASE WHEN statement in SQL is a conditional expression that allows you to create different outputs based on certain conditions. It is similar to the IF-THEN-ELSE logic in programming languages. CASE can be used in SELECT, UPDATE, INSERT, and ORDER BY clauses, making it very versatile.
+
+Writing queries on SQL 
+
+After a successful installation of the SQL App, Open the App, Click on New query and firstly create your database to warehouse all your queries. Also, Pay attention to masterdp because that is a default database, so always change it to the database created where your queries will be saved. It is also important to save the queries written before closing the App.
+
+
+## Power BI
 
